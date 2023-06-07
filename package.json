@@ -16,6 +16,10 @@
     "clean": "rimraf ./dist",
     "prepublish": "npm run clean && npm run build && npm test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattlinskys/react-html-script-eval.git"
+  },
   "keywords": [
     "react",
     "html",
